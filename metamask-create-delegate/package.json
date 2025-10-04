@@ -1,0 +1,17 @@
+{
+  "name": "ai-crypto-agent-cli",
+  "version": "1.0.0",
+  "description": "A CLI for an AI-powered crypto agent using MetaMask Smart Accounts and Delegation.",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "@metamask/delegation-toolkit": "^0.13.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "viem": "^2.37.8"
+  }
+}

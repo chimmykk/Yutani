@@ -1,0 +1,22 @@
+{
+    "name": "swap-v2-headless-example",
+    "version": "1.0.0",
+    "description": "A headless example of how to use 0x Swap API v2 using Node.js",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.14",
+        "@types/dotenv": "^8.2.0",
+        "typescript": "^5.5.2",
+        "tsx": "^4.7.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "qs": "^6.12.1",
+        "viem": "^2.17.3"
+    }
+}

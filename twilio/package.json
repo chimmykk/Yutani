@@ -1,0 +1,24 @@
+{
+  "name": "twilio-wallet-service",
+  "version": "1.0.0",
+  "description": "Twilio integration for wallet creation and delivery via SMS and calls",
+  "main": "twilio-wallet-service.js",
+  "scripts": {
+    "start": "node twilio-wallet-service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "twilio": "^4.19.0",
+    "ethers": "^6.8.1"
+  },
+  "keywords": [
+    "twilio",
+    "wallet",
+    "crypto",
+    "sms",
+    "calls",
+    "encryption"
+  ],
+  "author": "",
+  "license": "MIT"
+}
