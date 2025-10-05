@@ -1,0 +1,28 @@
+{
+  "name": "telegram-wallet-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for secure cryptocurrency wallet creation and management",
+  "main": "telegram-bot.js",
+  "scripts": {
+    "start": "node telegram-bot.js",
+    "dev": "node telegram-bot.js",
+    "test": "node test-telegram-wallet.js"
+  },
+  "dependencies": {
+    "argon2": "^0.31.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "wallet",
+    "crypto",
+    "encryption",
+    "argon2",
+    "aes-gcm"
+  ],
+  "author": "",
+  "license": "MIT"
+}

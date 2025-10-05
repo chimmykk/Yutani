@@ -1,0 +1,12 @@
+{
+  "salt": "JztjP3yq7H0ZnHq+zsJblg==",
+  "iv": "W4zVn7fbvXO3D3Xi",
+  "tag": "XMcuAWRSjeJ1yxSypHFUKA==",
+  "ciphertext": "S766aChaYbddBKXc98CBmGHZ19DFTle943VFCnTuvkv7mQeQWSDk19I26NSqLFma/f7GiQHHvMKFLz1Gnlodc0Y+MtrO1GZ8pfgDcPfLgpWL2DML+QG9lhUTuuBDRvOZUEpurvMxNwdtK29VlmwJL1nAfPVtpO9jeJeHbnp/M/sBnO7Kxf2PAQu0xrCraQfVh3qJ3K3lLtVdVPn1KXF5HYbB5Ti3Tl2ygx9mE5QohChKloHGaPOXf9f3F7lEOP3qMO9uNYpsvJGcFmOdBrBCEYbqyYTWyvgc8cGbX+/VfVWhWePwgCkGwSblT8whWiH8UZz0S/ZZ2avROEcr3edlJDPxVbP/jH3U+pgkgSw=",
+  "kdf": {
+    "type": "argon2id",
+    "timeCost": 3,
+    "memoryCost": 65536,
+    "parallelism": 1
+  }
+}

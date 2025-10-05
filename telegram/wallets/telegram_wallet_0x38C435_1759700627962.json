@@ -1,0 +1,12 @@
+{
+  "salt": "V1A8R2SlQqUDwK/z+J1w1A==",
+  "iv": "/vpblry+U1dkrG0C",
+  "tag": "k3KgcE8QfoHHhty/bCxRzA==",
+  "ciphertext": "/aytV4huUhRacPXcLz2kmI6rkNoMkUH4ILNedh6lThGvyp3QDNcWNDQ9pyK9rOKd5zygSuRguMIHrBsPTEgrT5zMMO1icGjij9qNoWEcMjj8CeGLfy9Z+RuwAXout1SuZyxFKCYtPxGzLxBMdqZK4WQcXPgHMqw+nECz3wluXqmqhnnFj3blHiIL14AcguG3tb8+TIMsaRedwZUlt/KfglzW6C8USqU1/GJ3QF9yqPZcewGRXYL1fKvFUzq4v1xd3WQZI4yQDBakMtSsjVy6UkCSrE1sCX8RkM6vNbXe7ldDV7gq/GpTmksjTlD5yzRYHyplU8AUcri5DTrkdZuWFVVxm1VhuUbZuNc=",
+  "kdf": {
+    "type": "argon2id",
+    "timeCost": 3,
+    "memoryCost": 65536,
+    "parallelism": 1
+  }
+}
