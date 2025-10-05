@@ -1,25 +1,9 @@
-# Environment files
-metamask-create-delegate/.env
+# Root level .gitignore
+# Project-specific .gitignore files are in each subdirectory
+
+# Global environment files
 .env
 *.env
-
-# Node.js dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build outputs
-dist/
-build/
-.next/
-out/
-
-# Cache directories
-.cache/
-.parcel-cache/
-.npm/
-.yarn/
 
 # OS generated files
 .DS_Store
@@ -41,22 +25,16 @@ Thumbs.db
 logs/
 *.log
 
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-
-# WhatsApp bot specific
-whatsapp/.wwebjs_auth/
-whatsapp/.wwebjs_cache/
-
-# Telegram bot specific
-telegram/wallets/
-
 # Temporary files
 tmp/
 temp/
+
+# Project-specific ignore rules are handled by individual .gitignore files in each directory:
+# - whatsapp/.gitignore
+# - telegram/.gitignore  
+# - google-auth-app/.gitignore
+# - metamask-create-delegate/.gitignore
+# - 0xswap/.gitignore
+# - argon-wallet-concept/.gitignore
+# - transferfunction/.gitignore
+# - twilio/.gitignore

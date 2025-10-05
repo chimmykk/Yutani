@@ -1,14 +1,18 @@
-# Next.js - Node.js Dependencies
+# WhatsApp Bot - Node.js Dependencies
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Next.js build outputs
-.next/
-out/
-build/
+# WhatsApp Web.js specific
+.wwebjs_auth/
+.wwebjs_cache/
+.wwebjs_session/
+
+# Build outputs
 dist/
+build/
+out/
 
 # Cache directories
 .cache/
@@ -57,19 +61,6 @@ tmp/
 temp/
 *.tmp
 *.temp
-
-# Next.js specific
-.next/
-out/
-build/
-dist/
-
-# TypeScript
-*.tsbuildinfo
-tsconfig.tsbuildinfo
-
-# Vercel
-.vercel
 
 # Wallet files (encrypted)
 wallets/
